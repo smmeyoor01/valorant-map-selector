@@ -1,0 +1,21 @@
+Format for scraped data
+{
+    'map_id': map_id,
+    'map_name': map_name,
+    'teams': [
+        {
+            'team': 'Team 1',
+            'total_score': total_scores[0],
+            'ct_score': ct_scores[0],
+            't_score': t_scores[0],
+            'agents': team1_agents
+        },
+        {
+            'team': 'Team 2',
+            'total_score': total_scores[1],
+            'ct_score': ct_scores[1],
+            't_score': t_scores[1],
+            'agents': team2_agents
+        }
+    ]
+}

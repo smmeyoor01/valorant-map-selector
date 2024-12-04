@@ -1,0 +1,3 @@
+app/webscraping/.cache.sqlite
+app/webscraping/__pycache__
+app/webscraping/.env
